@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">  
+        <meta name="author" content="Miguel Sauceda">
+        <meta name="keywords" content="hoja de vida, curriculum vitae, educacion">
+        <meta name="description" content="Hoja de vida del autor">
+        
+        <title>Educación</title>
+    </head>
+    
+    <body>
+        <header>
+            <!-- logo y titulo -->
+            <svg width="346" height="87">                
+                <image width="640" height="480" xlink:href="./imagenes/LogoMiguel.svg"></image>
+            </svg>      
+            <h1>Hoja de Vida</h1>
+            <h2>Miguel Sauceda</h2>
+            <h3>23 de septiembre de 1973</h3>
+        </header>
+        
+        <nav>
+            <!-- enlaces para la navegacion -->
+            <a href="./index.html">Inicio</a>
+            <a href="./educacion.html">Educacion</a>
+            <a href="./esperiencia.html">Experiencia</a>
+        </nav>
+        
+        <!-- cuerpo principal -->
+        <h2>Educación</h2><br/>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2000</td>
+                    <td>UNAH</td>
+                    <td>Tegucigalpa</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>2006</td>
+                    <td>IBM</td>
+                    <td>Tgucigalpa</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>UNAH</td>
+                    <td>Tegucigalpa</td>
+                    <td>Sí</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- formulario -->
+        <br/>
+        <form>
+            <fieldset>
+                <legend>Agregar Estudios</legend>            
+                <label for="anio">Año: </label>
+                <select>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                </select>  
+                <br/><br/>
+                
+                <label for="intitucion">Institución: </label>
+                <input type="text" maxlength="80" name="institucion" id="institucion" required="">
+                <br/><br/>
+                
+                <label for="lugar">Lugar: </label>
+                <textarea rows="1" cols="20"></textarea>
+                <br/><br/>
+                
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <footer>
+            <!-- informacion de contacto -->
+            <p>Puedes localizarme en <strong>micorreo@gmail.com</strong> o llamarme al <strong>123-456-789</strong></p>
+        </footer>
+    </body>
+</html>
